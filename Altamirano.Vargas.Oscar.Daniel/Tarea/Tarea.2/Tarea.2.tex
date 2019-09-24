@@ -1,0 +1,266 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx} 
+\usepackage{amsmath}
+\title{TAREA 2}
+\author{Parametros de rotaciones \\ de ángulos de Euler\\ \\ \\ Oscar Daniel Altamirano Vargas\\}
+
+\begin{document} 
+\maketitle
+\begin{figure}[hbtp]
+\caption{}
+\centering
+\includegraphics[scale=1]{../../../FotosdeLatex/LOGO.jpg}
+\end{figure}
+\pagebreak
+
+Expresan una posicion mas general con un puntp fijo mediante 3 ángulos. La posición se alcanza mediante 3 rotaciones sucesivas. \\ \\
+1-Precesión: Giro alrededor de un eje fijo: $\phi$ \\
+2-Nutación: Giro alrededor del eje perpendicular al fijo y a otro solidario:$\theta$ \\
+3-Rotación propia (spin): Giro alrededor del eje solidario al cuerpo: $\psi$ \\ \\ \\
+\begin{figure}[hbtp]
+\caption{}
+\centering
+\includegraphics[width=12cm]{../../../FotosdeLatex/Captura1.PNG}
+\end{figure}
+
+\pagebreak
+
+
+PRIMER GIRO ÁNGULO DE PRECESIÓN\cite{cartagena992016}  ($\phi$) \\ \\
+$
+\begin{pmatrix}
+i_1 \\
+j_1 \\
+k_1 \\
+\end{pmatrix}
+$
+=
+$
+\begin{bmatrix}
+cos \phi & sen\phi & 0\\
+-sen\phi & cos\phi & 0\\
+0 & 0 & 1 \\
+\end{bmatrix} 
+ $
+$ \cdot $
+$ 
+\begin{pmatrix}
+i \\
+j \\
+k 
+\end{pmatrix}
+$
+\\ \\ \\
+$
+\begin{pmatrix}
+i_1 \\
+j_1 \\
+k_1 \\
+\end{pmatrix}
+$
+= Ez$ \phi $ $ \cdot $
+$ 
+\begin{pmatrix}
+i \\
+j \\
+k 
+\end{pmatrix}
+$
+\includegraphics[width=5cm]{../../../FotosdeLatex/Captura2.PNG}  
+\\ \\ \\ 
+SEGUNDO GIRO ÁNGULO DE NUTACIÓN ($ \theta $) \\ \\
+$
+\begin{pmatrix}
+i_2 \\
+j_2 \\
+k_2 \\
+\end{pmatrix}
+$
+=
+$
+\begin{bmatrix}
+1 & 0 & 0 \\
+0 & cos\theta  & sen\theta \\
+0 & -sen\theta & cos\theta \\
+
+\end{bmatrix} 
+ $
+$ \cdot $
+$ 
+\begin{pmatrix}
+i_1 \\
+j_1 \\
+k_1 
+\end{pmatrix}
+$
+\\ \\ \\
+$
+\begin{pmatrix}
+i_2 \\
+j_2 \\
+k_2 \\
+\end{pmatrix}
+$
+= Ex$ \theta $ $ \cdot $
+$ 
+\begin{pmatrix}
+i_1 \\
+j_1 \\
+k_1 
+\end{pmatrix}
+$
+\includegraphics[width=5cm]{../../../FotosdeLatex/Captura3.PNG} 
+ 
+\pagebreak
+TERCER GIRO ÁNGULO DE SPIN ($ \psi $) \\ \\
+$
+\begin{pmatrix}
+e_1 \\
+e_2 \\
+e_3 \\
+\end{pmatrix}
+$
+=
+$
+\begin{bmatrix}
+cos\psi  & sen\psi & 0 \\
+-sen\psi & cos\psi & 0 \\
+0 & 0 & 1
+
+\end{bmatrix} 
+ $
+$ \cdot $
+$ 
+\begin{pmatrix}
+i_2 \\
+j_2 \\
+k_2 
+\end{pmatrix}
+$
+\\ \\ \\
+$
+\begin{pmatrix}
+e_1 \\
+e_2 \\
+e_3 \\
+\end{pmatrix}
+$
+= Ez$ \psi $ $ \cdot $
+$ 
+\begin{pmatrix}
+i_2 \\
+j_2 \\
+k_2 
+\end{pmatrix}
+$
+\includegraphics[width=5cm]{../../../FotosdeLatex/Captura4.PNG}  \\ \\ \\
+MATRIZ DE ROTACIÓN DE LOS 3 GIROS \\ \\
+$
+\begin{pmatrix}
+i_1 \\
+j_1 \\
+k_1 \\
+\end{pmatrix}
+$
+= Ez$ \phi $ $ \cdot $
+$ 
+\begin{pmatrix}
+i \\
+j \\
+k 
+\end{pmatrix}
+$
+$
+\begin{pmatrix}
+i_2 \\
+j_2 \\
+k_2 \\
+\end{pmatrix}
+$
+= Ex$ \theta $ $ \cdot $
+$ 
+\begin{pmatrix}
+i_1 \\
+j_1 \\
+k_1 
+\end{pmatrix}
+$
+$
+\begin{pmatrix}
+e_1 \\
+e_2 \\
+e_3 \\
+\end{pmatrix}
+$
+= Ez$ \psi $ $ \cdot $
+$ 
+\begin{pmatrix}
+i_2 \\
+j_2 \\
+k_2 
+\end{pmatrix}
+$
+\\
+\\ 
+\\
+$
+\begin{pmatrix}
+i_2 \\
+j_2 \\
+k_2 \\
+\end{pmatrix}
+$
+= Ex$ \theta $ $ \cdot $ Ez $ \phi $
+$ 
+\begin{pmatrix}
+i \\
+j \\
+k 
+\end{pmatrix}
+$
+\\
+\\
+\\
+$ 
+\begin{pmatrix}
+e_1 \\
+e_2\\
+e_3 
+\end{pmatrix}
+$
+=Ez$ \psi \cdot $Ex$ \theta\cdot $Ez$ \phi $
+$ 
+\begin{pmatrix}
+i \\
+j \\
+k 
+\end{pmatrix}
+ $
+ $ \Rightarrow $
+ $ 
+\begin{pmatrix}
+e_1 \\
+e_2\\
+e_3
+\end{pmatrix}
+ $
+ = E
+ $ 
+\begin{pmatrix}
+i \\
+j \\
+k 
+\end{pmatrix}
+ $
+ \\
+ \includegraphics[scale=1]{../../../FotosdeLatex/Captura5.PNG} 
+
+\pagebreak
+\nocite{*} 
+\bibliographystyle{plain}
+\bibliography{C:/ligas.JabRef/Tarea.2/AngulosdeEuler}
+
+\end{document}
