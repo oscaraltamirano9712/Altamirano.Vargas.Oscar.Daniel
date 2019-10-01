@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\title{TAREA 3}
+\author{La representación de Denavit-Hartenberg \\ \\ Oscar Daniel Altamirano Vargas\\}
+
+\begin{document} 
+\maketitle
+\begin{figure}[hbtp]
+\centering
+\includegraphics[width=10cm]{../../../FotosdeLatex/LOGO.jpg}
+\end{figure}
+\pagebreak
+
+El estudio de los parámetros Denavit-Hartenberg (DH) forma parte de todo curso básico sobre robótica, ya que son un estándar a la hora de describir la geometría de un brazo o manipulador robótico.  Se usan para resolver de forma trivial el problema de la cinemática directa, y como punto inicial para plantear el más complejo de cinemática inversa.\cite{Robots2014} \\ \\ \\ 
+D-H1\\
+Numerar los eslabones comenzando con 1 (primer eslabón móvil de la cadena) y acabando con n (último eslabón móvil). Se numerará como eslabón 0 a la base fija del robot .\\
+D-H2\\
+Numerar cada articulación comenzando por 1 (la correspondiente al primer grado de libertad) y acabando en n.\\
+D-H3\\
+Localizar el eje de cada articulación. Si ésta es rotativa, el eje será su propio eje de giro. Si es prismática, será el eje a lo largo del cual se produce el desplazamiento.\\
+D-H4\\
+Para i de 0 a n-1 situar el eje $ z_1 $ sobre el eje de la  articulación i+1\\
+D-H5\\
+Situar el origen del sistema de la base {$ {s_0} $} en cualquier punto del eje $ z_0 $  Los ejes $ x_0 $ e $ y_0 $ se situarán de modo que formen un sistema dextrógiro con $ z_0 $ \\
+D-H6\\
+ Para i de 1 a n-1, situar el sistema $ s_i $ (solidario al eslabón i) en la intersección del eje $ z_i $ con la línea normal común a $ z_i-1 $ y $ z_i $ .Si ambos ejes se cortasen se situaría $ s_i $ en el punto de corte. Si fuesen paralelos $ s_i $ se situaría en la articulación i+1\\
+D-H7\\
+Situar $ x_i $ en la línea normal común a $ z_i-1 $ y $ z_i $\\
+D-H8\\
+Situar $ y_i $ de modo que forme un sistema dextrógiro con $ x_i $ y $ y_i $\\
+D-H9\\
+Situar el sistema $ s_n $ en el extremo del robot de modo que $ z_n $ concida con la dirección de $ z_n-1 $ y $ x_n $ sea normal a $ z_n-1 $ y $ z_n $\\
+D-H10\\
+Obtener $ q_1 $ como el ángulo que hay que girar en torno a $ z_i-1 $ para que $ x_i-1$ y $x_i$ queden paralelos.\\
+D-H11\\
+Obtener $d_i$ como la distancia, medida o lo largo de $z_i-1$ que habria que desplazar $s_i-1$ para que $x_i$ y     $x_i-1$ queden alineados.\\
+D-H12\\
+Obtener $a_i$ como la distancia medida a lo largo de $x_i$ (que ahora coicidiría con $x_i-1$ ) que habría que desplazar el nuevo $s_i-1$ para que su origen concida con $s_i$\\
+D-H13\\
+Obtener $a_i$ como el ángulo que habría que girarentorno a $x_i$ que ahora concidiría con $x_i-1$ para que el nuevo $s_i-1$ coincida totalmente con $s_i$.\\
+D-H14\\
+Obtener las matrizes de transformación $_i-1 $.... $ A_i$\\
+D-H15\\
+Obtener la matriz de transformación entre la base y el extremo del robot T= 0($A_1$), 1($A_2$)..... n-1 ($A_n.$).\\
+D-H16\\
+La matriz T define la orientación (submatriz de rotación) y posición (submatriz de traslación) del extremo referido  a la base en función de las n coordenadas articulares.\\
+\includegraphics[width=5cm]{../../../FotosdeLatex/Captura13.png}  
+
+\pagebreak
+\nocite{*} 
+\bibliographystyle{plain}
+\bibliography{C:/ligas.JabRef/Tarea.3/Tarea.3}
+ 
+
+
+
+\end{document}

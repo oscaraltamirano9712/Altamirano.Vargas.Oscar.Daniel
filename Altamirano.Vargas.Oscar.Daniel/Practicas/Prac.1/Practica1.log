@@ -1,0 +1,416 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.9.17)  29 SEP 2019 19:11
+entering extended mode
+**./Practica1.tex
+(Practica1.tex
+LaTeX2e <2018-12-01>
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ar
+ticle.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\si
+ze12.clo"
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fo
+ntenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t1
+enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\in
+putenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel
+\babel.sty"
+Package: babel 2019/07/19 3.33 The Babel package
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel
+\switch.def"
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\b
+blopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-s
+panish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel
+\babel.def"
+File: babel.def 2019/07/19 3.33 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel
+\txtbabel.def")
+\bbl@dirlevel=\count89
+)
+\es@quottoks=\toks16
+\es@quotdepth=\count90
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphic
+s-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen106
+))
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath
+\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks19
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks20
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (Practica1.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+)
+\openout1 = `Practica1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Info: Redefining \. on input line 10.
+LaTeX Info: Redefining \% on input line 10.
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/
+mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen115
+\scratchbox=\box29
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen116
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks24
+)
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdie
+k\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\pdftexcmds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\Oscar Altamirano\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberd
+iek\ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+<../../../FotosdeLatex/LOGO.jpg, id=1, 155.83218pt x 180.675pt>
+File: ../../../FotosdeLatex/LOGO.jpg Graphic file (type jpg)
+<use ../../../FotosdeLatex/LOGO.jpg>
+Package pdftex.def Info: ../../../FotosdeLatex/LOGO.jpg  used on input line 14.
+
+(pdftex.def)             Requested size: 155.8318pt x 180.67455pt.
+ [1
+
+{C:/Users/Oscar Altamirano/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <
+../../../FotosdeLatex/LOGO.jpg>]
+<../../../FotosdeLatex/Captura6.PNG, id=9, 520.94624pt x 58.71938pt>
+File: ../../../FotosdeLatex/Captura6.PNG Graphic file (type png)
+<use ../../../FotosdeLatex/Captura6.PNG>
+Package pdftex.def Info: ../../../FotosdeLatex/Captura6.PNG  used on input line
+ 21.
+(pdftex.def)             Requested size: 520.94498pt x 58.71921pt.
+<../../../FotosdeLatex/Captura7.PNG, id=11, 520.19344pt x 50.43843pt>
+File: ../../../FotosdeLatex/Captura7.PNG Graphic file (type png)
+<use ../../../FotosdeLatex/Captura7.PNG>
+Package pdftex.def Info: ../../../FotosdeLatex/Captura7.PNG  used on input line
+ 24.
+(pdftex.def)             Requested size: 520.19215pt x 50.4383pt.
+<../../../FotosdeLatex/Captura8.PNG, id=12, 526.21594pt x 33.12375pt>
+File: ../../../FotosdeLatex/Captura8.PNG Graphic file (type png)
+<use ../../../FotosdeLatex/Captura8.PNG>
+Package pdftex.def Info: ../../../FotosdeLatex/Captura8.PNG  used on input line
+ 27.
+(pdftex.def)             Requested size: 526.21466pt x 33.12366pt.
+<../../../FotosdeLatex/Captura9.PNG, id=13, 515.67656pt x 104.64093pt>
+File: ../../../FotosdeLatex/Captura9.PNG Graphic file (type png)
+<use ../../../FotosdeLatex/Captura9.PNG>
+Package pdftex.def Info: ../../../FotosdeLatex/Captura9.PNG  used on input line
+ 30.
+(pdftex.def)             Requested size: 515.6753pt x 104.64066pt.
+<../../../FotosdeLatex/Captura10.PNG, id=14, 520.19344pt x 67.75313pt>
+File: ../../../FotosdeLatex/Captura10.PNG Graphic file (type png)
+<use ../../../FotosdeLatex/Captura10.PNG>
+Package pdftex.def Info: ../../../FotosdeLatex/Captura10.PNG  used on input lin
+e 31.
+(pdftex.def)             Requested size: 520.19215pt x 67.75294pt.
+<../../../FotosdeLatex/Captura11.PNG, id=15, 518.6878pt x 96.36pt>
+File: ../../../FotosdeLatex/Captura11.PNG Graphic file (type png)
+<use ../../../FotosdeLatex/Captura11.PNG>
+Package pdftex.def Info: ../../../FotosdeLatex/Captura11.PNG  used on input lin
+e 34.
+(pdftex.def)             Requested size: 518.68654pt x 96.35974pt.
+<../../../FotosdeLatex/Captura12.PNG, id=16, 517.935pt x 103.13531pt>
+File: ../../../FotosdeLatex/Captura12.PNG Graphic file (type png)
+<use ../../../FotosdeLatex/Captura12.PNG>
+Package pdftex.def Info: ../../../FotosdeLatex/Captura12.PNG  used on input lin
+e 36.
+(pdftex.def)             Requested size: 517.93372pt x 103.13504pt.
+
+No file Practica1.bbl.
+
+Overfull \hbox (0.36165pt too wide) in paragraph at lines 17--41
+\T1/cmr/m/n/12 La con-fi-gu-ra-ción de su or-de-na-dor pa-ra acep-tar el soft-w
+a-re de pac-ka-ges.ros.org.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--41
+
+ []
+
+
+Overfull \hbox (130.94498pt too wide) in paragraph at lines 17--41
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--41
+
+ []
+
+
+Overfull \hbox (130.19215pt too wide) in paragraph at lines 17--41
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--41
+
+ []
+
+
+Overfull \hbox (136.21466pt too wide) in paragraph at lines 17--41
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--41
+
+ []
+
+
+Overfull \hbox (125.6753pt too wide) in paragraph at lines 17--41
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--41
+
+ []
+
+
+Overfull \hbox (130.19215pt too wide) in paragraph at lines 17--41
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--41
+
+ []
+
+
+Overfull \hbox (128.68654pt too wide) in paragraph at lines 17--41
+[] 
+ []
+
+
+Overfull \hbox (127.93372pt too wide) in paragraph at lines 17--41
+[] 
+ []
+
+[2 <../../../FotosdeLatex/Captura6.PNG> <../../../FotosdeLatex/Captura7.PNG> <.
+./../../FotosdeLatex/Captura8.PNG>] [3 <../../../FotosdeLatex/Captura9.PNG> <..
+/../../FotosdeLatex/Captura10.PNG> <../../../FotosdeLatex/Captura11.PNG> <../..
+/../FotosdeLatex/Captura12.PNG>] (Practica1.aux
+LaTeX Info: Redefining \. on input line 6.
+LaTeX Info: Redefining \% on input line 6.
+) ) 
+Here is how much of TeX's memory you used:
+ 3238 strings out of 492895
+ 45601 string characters out of 3118596
+ 119464 words of memory out of 3000000
+ 7115 multiletter control sequences out of 15000+200000
+ 7606 words of font info for 23 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,31p,278b,361s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Oscar Altamirano\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
+n/ec/dpi600\ecrm1200.pk> <C:\Users\Oscar Altamirano\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Oscar Altamirano\AppDat
+a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
+Output written on Practica1.pdf (3 pages, 327889 bytes).
+PDF statistics:
+ 140 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+
